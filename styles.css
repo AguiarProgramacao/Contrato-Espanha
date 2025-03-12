@@ -211,6 +211,7 @@ fieldset {
   .btn{
     padding: 6px 30px;
     font-size: 14px;
+    border: 1px solid #2B612D;
   }
 
   .div{

@@ -22,8 +22,12 @@
   <div class="container">
     <div class="container-um">
       <div class="buttons-links">
-        <button type="button" class="btn btn-contrato">Espanha</button>
-        <a href="https://formulario-procuracao-imigrei.vercel.app/" type="button" class="btn btn-proposta">Proposta</a>
+        <select id="contratoSelect" class="btn btn-contrato">
+          <option value="https://gerador-de-contrato-imigrei.vercel.app/">Itália</option>
+          <option value="https://contrato-portugal.vercel.app/">Portugal</option>
+          <option value="https://contrato-espanha.vercel.app/">Espanha</option>
+        </select>
+        <a href="https://formulario-procuracao-imigrei.vercel.app/" class="btn btn-proposta">Procuração</a>
       </div>
       <div>
         <h1>Contrato Espanha</h1>
@@ -78,7 +82,7 @@
               </div>
               <div class="div">
                 <label>Estado:</label>
-                <input class="input" type="text" id="estado" name="estado" placeholder="Automático" >
+                <input class="input" type="text" id="estado" name="estado" placeholder="Automático">
               </div>
             </div>
             <label>Valor da Proposta:</label>
