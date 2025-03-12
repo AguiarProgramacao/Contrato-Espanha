@@ -214,7 +214,7 @@ fieldset {
   }
 
   .div{
-    width: 22.2%;
+    width: 21%;
   }
 
   h1{
@@ -242,10 +242,10 @@ fieldset {
   }
 
   .btn-contrato{
-    padding: 8px 55px;
+    padding: 8px 40px;
   }
   
   .btn-proposta{
-    padding: 8px 55px;
+    padding: 8px 40px;
   }
 }
